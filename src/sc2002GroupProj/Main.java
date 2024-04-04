@@ -3,13 +3,12 @@ package sc2002GroupProj;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
-	
-	private static CustomerUtility CustomerUtility;
-	private static OrderListUtility OrderListUtility;
-	private static OrderUtility OrderUtility;
+import sc2002GroupProj.OrderListUtility;
+import sc2002GroupProj.CustomerUtility;
+import sc2002GroupProj.OrderUtility;
 
-	
+public class Main {
+
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
@@ -48,6 +47,8 @@ public class Main {
 			CustomerUtility.viewOrderStatusUsingOrderID(orderList, orderID);
 			System.out.println("");
 		}
+		
+		OrderListUtility.displayNewOrders(orderList);
 		
 		
 	}

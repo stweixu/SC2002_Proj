@@ -2,8 +2,6 @@ package sc2002GroupProj;
 
 public class CustomerUtility {
 	
-	private static OrderListUtility OrderListUtility;
-	
 
 public static void viewOrderStatusUsingOrderID(OrderList orderList, int orderID) {
 	

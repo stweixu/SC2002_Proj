@@ -1,12 +1,10 @@
 package sc2002GroupProj;
 
 import java.util.ArrayList;
+//import sc2002GroupProj.OrderUtility;
 
 public class OrderListUtility {
-	
-	private static OrderUtility OrderUtility; //OrderUtility object is instantiated as static
-											  //So we can use OrderUtility methods
-	
+
 	//All static methods (no objects instantiation required)
 	//Instead, pass in a specific Order object as argument into OrderListUtility methods
 	
